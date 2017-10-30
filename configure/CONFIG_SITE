@@ -21,11 +21,11 @@ CHECK_RELEASE = YES
 # Set this when you only want to compile this application
 #   for a subset of the cross-compiled target architectures
 #   that Base is built for.
-#CROSS_COMPILER_TARGET_ARCHS = vxWorks-ppc32
+CROSS_COMPILER_TARGET_ARCHS = linux-ppc64e6500
 
 # To install files into a location other than $(TOP) define
 #   INSTALL_LOCATION here.
-#INSTALL_LOCATION=</absolute/path/to/install/top>
+INSTALL_LOCATION=$(LITEEE_INSTALL)/$(LITEEE_BASE)/modules/autosave/5.7.1
 
 # Set this when the IOC and build host use different paths
 #   to the install location. This may be needed to boot from
