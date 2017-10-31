@@ -25,7 +25,7 @@ CROSS_COMPILER_TARGET_ARCHS = linux-ppc64e6500
 
 # To install files into a location other than $(TOP) define
 #   INSTALL_LOCATION here.
-INSTALL_LOCATION=$(LITEEE_INSTALL)/$(LITEEE_BASE)/modules/autosave/5.7.1
+INSTALL_LOCATION=/opt/liteee/3.16.1/modules/autosave/5.7.1
 
 # Set this when the IOC and build host use different paths
 #   to the install location. This may be needed to boot from

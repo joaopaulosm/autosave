@@ -5,7 +5,7 @@
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
 # EPICS_BASE usually appears last so other apps can override stuff:
-EPICS_BASE=$(LITEEE_INSTALL)/$(LITEEE_BASE)/base
+EPICS_BASE=/opt/liteee/3.16.1/base
 -include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
 
 #Capfast users may need the following definitions
